@@ -64,7 +64,7 @@ void Landau_Vavilov_comparison(){
   l -> AddEntry(landau_c_piover2, "Landau c = #pi/2", "l");
   l -> Draw("same");
 
-  c -> SaveAs("./Vavilov_Landau_comparison.pdf");
+  c -> SaveAs("./Vavilov_Landau_comparison.png");
   c -> Close();
 }
 
@@ -106,7 +106,7 @@ void landau_mean_distribution(){
 
   graph -> Draw("psame");
 
-  c -> SaveAs("./lambda_mean_distribution.pdf");
+  c -> SaveAs("./lambda_mean_distribution.png");
   
 }
 
@@ -206,7 +206,7 @@ void lambda_max_formula_comparison(){
   l -> AddEntry(fit_lambda_max_f, "New fit parameters", "l");
   l -> Draw("same");
 
-  c -> SaveAs("./lambda_max_formula_comparison.pdf");
+  c -> SaveAs("./lambda_max_formula_comparison.png");
   c -> Close();
 
   graph -> SetName("labmda_max_gr");

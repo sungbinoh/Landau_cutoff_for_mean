@@ -33,6 +33,17 @@ Plot &lambda;<sub>max</sub> as a function of &lambda;, where &lambda;<sub>max</s
 [pdf version](lambda_max_formula_comparison.pdf)
 ![output](lambda_max_formula_comparison.png)
 
+Traditional parameters are
+```
+p0 = 0.60715
+p1 = 1.1934
+p2 = 0.67794
+p3 = 0.052382
+p4 = 0.94753
+p5 = 0.74442
+```
+
+Fitted parameters in this code are
 ```
 ****************************************
 Minimizer is Minuit / Migrad

@@ -16,18 +16,21 @@ root -l -b -q comparison.C
 
 Compare Vavilov and Landau functions in the TMath class to confirm that TMath::Landau(x, 0, 1) is the standard Landau function (location parameter = 0, scale parameter = &pi;/2).
 
+[pdf version](Vavilov_Landau_comparison.pdf)
 ![output](Vavilov_Landau_comparison.png)
 
 ### void landau_mean_distribution()
 
 Plot mean of the standard Landau function as a function of &lambda;.
 
+[pdf version](lambda_mean_distribution.pdf)
 ![output](lambda_mean_distribution.png)
 
 ### void lambda_max_formula_comparison()
 
 Plot &lambda;<sub>max</sub> as a function of &lambda;, where &lambda;<sub>max</sub> is cutoff value that gives the &lambda; as mean of the standard Landau function.
 
+[pdf version](lambda_max_formula_comparison.pdf)
 ![output](lambda_max_formula_comparison.png)
 
 ```

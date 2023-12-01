@@ -1,14 +1,14 @@
 # Landau_cutoff_for_mean
 
-Plot lambda_max for lambda from -3 to 8 in the standard Landau function and fit.
-Using TMath::Landau and TMath::VavilovAccurate classes of the ROOT.
+Plot &lambda;<sub>max</sub> for &lambda; from -3 to 8 in the standard Landau function and fit.
+The TMath::Landau and TMath::VavilovAccurate classes of the ROOT are used.
 
 ## Run
 You need the ROOT package.
 I am using ROOT 6.26/06.
-'''
+```
 root -l -b -q comparison.C
-'''
+```
 
 ## Functions
 
